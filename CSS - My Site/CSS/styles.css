@@ -1,0 +1,176 @@
+body {
+  /*All four sides will be set to 0px */
+  margin: 0;
+  text-align: center;
+  /*This line of code sets the font family of sans-serif for the entire page, but it first asks the browser to render the page with the verdana font */
+  /* font-family: verdana, sans-serif; */
+  /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif */
+  /* it will default to serif */
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+span {
+  text-decoration: underline;
+}
+
+h1 {
+  /* top, right, bottom, left (auto property keeps the element centered)*/
+  margin: 50px auto 0 auto;
+  /* font-size: 100%; == 16px*/
+  /* Dynamic size */
+  /*'rem' means ignore the parent settings and take the setting from this root*/
+  font-size: 5.625rem;
+  /*the same as: */
+  /* font-size: 5.625em; */
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+
+p{
+  line-height: 2;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.my_image {
+  /* margin: 50px auto 20px auto; */
+  border-radius: 50%;
+  margin: 20px auto 15px auto
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 600px;
+  top: 50px;
+}
+
+.top-container {
+  background-color: #f4f9f4;
+  position: relative;
+  padding-top: 100px;
+}
+
+.programming-img {
+  /* 25% of it's parent which is a skill row */
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.code-skill-description {
+  /* Prevents anything from wrapping on the side specified */
+  clear: left;
+}
+
+.cooking-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+/* if a div does not have any content, dimensions have to specified */
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  /* 75% of 16px */
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  /*10px top and bottom and 20px right and left*/
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 20px auto 200px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  font-family: 'Montserrat', sans-serif;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.ending-line{
+  margin-bottom: 60px;
+}
+
+.contact-me {
+  margin: 10px auto 50px auto;
+}
